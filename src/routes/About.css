@@ -7,16 +7,12 @@
 
 .Summary {
     background-color: gray; 
-    margin: -21px;
-    margin-top: 21px;
     color: White;
     height: 300px;
 }
 
 .Interest {
     background-color: lightgray; 
-    margin: -21px;
-    margin-top: 21px;
     color: black;
     height: 800px;
 }
@@ -30,7 +26,7 @@
 .InterestCardBody {
     margin: auto; 
     width: 600px;
-    height: 600px
+    height: 600px;
 }
 
 .InterstCardImage {
@@ -58,18 +54,14 @@
 
 .About {
     background-color: white; 
-    margin: -21px; 
     color: black;
     height: 300px;
+    margin-top: -21px;
 }
 
 .Title { 
     font-size: 40px;
     padding: 0;
-}
-
-.TitleAlign {
-    margin: -20px;
 }
 
 .Wannabe {
@@ -92,7 +84,6 @@
 
     .About {
         background-color: white; 
-        margin: -21px; 
         color: black;
         height: 240px;
     }

@@ -12,15 +12,15 @@ import CardImg from "react-bootstrap/esm/CardImg";
 import CardImgOverlay from "react-bootstrap/esm/CardImgOverlay";
 function About() {
   return (
-    <div>
+    <div style={{padding: "0px", margin: "0px"}}>
       <div className="About">
-        <Row>
+        <Row className="p-0 m-0">
           <Col className="p-5 col-6 m-0 p-0">
             <img src={ProfileImage} className="ProfileImg"></img>
           </Col>
           <Col style={{margin: "auto", fontFamily: 'Playfair Display'}}>
-            <Row>Hi, I am Cheah Meng Yew</Row>
-            <div className="TitleAlign">
+            <Row className="p-0 m-0">Hi, I am Cheah Meng Yew</Row>
+            <div>
               <br></br>
               <text className="Title">I am a </text>
               <text className="Title" style={{fontFamily: 'Tektur'}}>Software Developer</text> 
