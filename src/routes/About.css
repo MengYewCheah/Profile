@@ -1,0 +1,148 @@
+.ProfileImg {
+    padding: 0px;
+    margin-top: -30px;
+    margin-left: 100px;
+    height: 300px;
+}
+
+.Summary {
+    background-color: gray; 
+    margin: -21px;
+    margin-top: 21px;
+    color: White;
+    height: 300px;
+}
+
+.Interest {
+    background-color: lightgray; 
+    margin: -21px;
+    margin-top: 21px;
+    color: black;
+    height: 800px;
+}
+
+.InterstCardImageImage {
+    padding: 20px;
+    margin-top: -80px;
+    opacity: 0.3;
+}
+
+.InterestCardBody {
+    margin: auto; 
+    width: 600px;
+    height: 600px
+}
+
+.InterstCardImage {
+    background-color: white;
+    width: 200px; 
+    height: 200px;
+    padding: 0px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.InterstCardImageImage:hover{
+    opacity: 1;
+}
+
+.InterstCardImageText{
+    font-weight: bold;
+}
+
+.SummaryCardTitle {
+    margin: auto;
+    font-size: 40px;
+}
+
+
+.About {
+    background-color: white; 
+    margin: -21px; 
+    color: black;
+    height: 300px;
+}
+
+.Title { 
+    font-size: 40px;
+    padding: 0;
+}
+
+.TitleAlign {
+    margin: -20px;
+}
+
+.Wannabe {
+    font-style: italic;
+}
+
+.CardText { 
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .ProfileImg {
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: auto;
+        height: 200px;
+    }
+
+    .About {
+        background-color: white; 
+        margin: -21px; 
+        color: black;
+        height: 240px;
+    }
+
+    .Title {
+        font-size: 19px;
+    }
+
+    .TitleAlign {
+        margin: -15px;
+    }
+
+    .Wannabe {
+        font-size: 10px;
+    }
+
+    .CardText {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .SummaryCardTitle {
+        font-size: 30px;
+    }
+
+    .Summary {
+        height: 240px;
+    }
+
+    .InterestCardBody {
+        width: 300px;
+        height: 300px
+    }
+
+    .InterstCardImage {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .Interest {
+        height: 400px;
+    }
+
+    .InterstCardImageImage {
+        margin-top: -50px;
+        padding: 10px;
+    }
+
+    .InterstCardImageText{
+        font-weight: bold;
+    }
+    
+}    
