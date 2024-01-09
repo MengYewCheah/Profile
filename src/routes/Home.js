@@ -16,7 +16,7 @@ function Home() {
             <CardBody style={{margin: "auto"}}>
               <CardTitle style={{paddingLeft: "30%"}}><h3 style={{fontWeight: "bolder"}}>Summary</h3></CardTitle>
               <CardText style={{marginLeft: "10px"}}>
-                Software programmer wannabe, born and grown up in Kuala Lumpur Malaysia. Active on solving leetcode. Looking for something more challenging.
+                Born and raised in Kuala Lumpur Malaysia. Software Engineer wannabe. Active on solving leetcode. Looking for something more challenging.
               </CardText>
 
               <CardTitle style={{paddingLeft: "30%"}}><h3 style={{fontWeight: "bolder"}}>Bio - Data</h3></CardTitle>
