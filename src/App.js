@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import About from './routes/About';
@@ -7,7 +6,7 @@ import Home from './routes/Home';
 
 function App() {
   return (
-    <div>
+    <div className='Body'>
       <Navigation/>
       <Routes>
         <Route path="/" element={<Home />} />
