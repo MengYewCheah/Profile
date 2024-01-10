@@ -13,6 +13,9 @@ import CardImg from "react-bootstrap/esm/CardImg";
 import RanPoster from '../assets/ranPoster.jpg';
 import CatanPoster from '../assets/CatanPoster.jpg';
 import Badminton from '../assets/badminton.jpg';
+import Travel from '../assets/travel.jpg';
+import Cooking from '../assets/cooking.jpg';
+import Reading from '../assets/books.jpg';
 function About() {
   return (
     <div style={{padding: "0px", margin: "0px"}}>
@@ -37,8 +40,14 @@ function About() {
           <CardTitle className="InterestCardTitle p-3">Interest</CardTitle>
           <CardBody className="InterestCardBody p-0">
               <Row className="m-0">
-                <Col className="InterstCardImage">Traveling</Col>
-                <Col className="InterstCardImage">Cooking</Col>
+                <Col className="InterstCardImage">
+                  <div className="InterstCardImageText">Travel</div>
+                  <CardImg className="InterstCardImageImage" src={Travel}></CardImg>
+                </Col>
+                <Col className="InterstCardImage">
+                  <div className="InterstCardImageText">Cooking</div>
+                  <CardImg className="InterstCardImageImage" src={Cooking}></CardImg>
+                </Col>
                 <Col className="InterstCardImage">
                   <div className="InterstCardImageText">Badminton</div>
                   <CardImg className="InterstCardImageImage" src={Badminton}></CardImg>
@@ -59,7 +68,10 @@ function About() {
                 </Col>
               </Row>
               <Row className="m-0">
-                <Col className="InterstCardImage">Reading</Col>
+                <Col className="InterstCardImage">
+                  <div className="InterstCardImageText">Reading</div>
+                  <CardImg className="InterstCardImageImage" src={Reading}></CardImg>
+                </Col>
                 <Col className="InterstCardImage">
                   <div className="InterstCardImageText">Chess</div>
                   <CardImg className="InterstCardImageImage" src={ChessImage}></CardImg>
