@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/Profile/static/css/main.48d6643b.css",
-    "main.js": "/Profile/static/js/main.9dc94129.js",
+    "main.js": "/Profile/static/js/main.faa8b631.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
+    "static/media/cooking.jpg": "/Profile/static/media/cooking.316a1e3276de7b5dd8ba.jpg",
+    "static/media/travel.jpg": "/Profile/static/media/travel.0514a281789d278e622a.jpg",
+    "static/media/books.jpg": "/Profile/static/media/books.1752231685ea35763443.jpg",
     "static/media/ranPoster.jpg": "/Profile/static/media/ranPoster.c56d3200929f5594d50d.jpg",
     "static/media/profile-pic.png": "/Profile/static/media/profile-pic.38994f7722670397bc40.png",
     "static/media/profile-removebg-preview.png": "/Profile/static/media/profile-removebg-preview.f62ce259be81174f025a.png",
@@ -12,11 +15,11 @@
     "static/media/chess.webp": "/Profile/static/media/chess.f148908891d81669240f.webp",
     "index.html": "/Profile/index.html",
     "main.48d6643b.css.map": "/Profile/static/css/main.48d6643b.css.map",
-    "main.9dc94129.js.map": "/Profile/static/js/main.9dc94129.js.map",
+    "main.faa8b631.js.map": "/Profile/static/js/main.faa8b631.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48d6643b.css",
-    "static/js/main.9dc94129.js"
+    "static/js/main.faa8b631.js"
   ]
 }
