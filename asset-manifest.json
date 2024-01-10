@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Profile/static/css/main.3789d236.css",
-    "main.js": "/Profile/static/js/main.fbf743bc.js",
+    "main.js": "/Profile/static/js/main.9dc94129.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
     "static/media/ranPoster.jpg": "/Profile/static/media/ranPoster.c56d3200929f5594d50d.jpg",
     "static/media/profile-pic.png": "/Profile/static/media/profile-pic.38994f7722670397bc40.png",
-    "static/media/badminton.webp": "/Profile/static/media/badminton.3a42a508c105e446a52c.webp",
     "static/media/profile-removebg-preview.png": "/Profile/static/media/profile-removebg-preview.f62ce259be81174f025a.png",
     "static/media/LinkinPark.jpg": "/Profile/static/media/LinkinPark.5c280271598aa362cd1f.jpg",
     "static/media/zelda.jpg": "/Profile/static/media/zelda.502adbcd589acc5bc12b.jpg",
+    "static/media/badminton.jpg": "/Profile/static/media/badminton.94d6468583168a6a79d5.jpg",
     "static/media/chess.webp": "/Profile/static/media/chess.f148908891d81669240f.webp",
     "index.html": "/Profile/index.html",
     "main.3789d236.css.map": "/Profile/static/css/main.3789d236.css.map",
-    "main.fbf743bc.js.map": "/Profile/static/js/main.fbf743bc.js.map",
+    "main.9dc94129.js.map": "/Profile/static/js/main.9dc94129.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3789d236.css",
-    "static/js/main.fbf743bc.js"
+    "static/js/main.9dc94129.js"
   ]
 }
