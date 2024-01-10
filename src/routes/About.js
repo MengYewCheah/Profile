@@ -34,7 +34,7 @@ function About() {
       </div>
       <div className="Interest">
       <Card className="border-0 p-5" style={{backgroundColor: "lightgray", color: "black"}}>
-          <CardTitle className="SummaryCardTitle p-3">Interest</CardTitle>
+          <CardTitle className="InterestCardTitle p-3">Interest</CardTitle>
           <CardBody className="InterestCardBody p-0">
               <Row className="m-0">
                 <Col className="InterstCardImage">Traveling</Col>

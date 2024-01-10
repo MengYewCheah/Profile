@@ -53,6 +53,12 @@
     font-size: 40px;
 }
 
+.InterestCardTitle {
+    margin: auto;
+    font-size: 40px;
+}
+
+
 
 .About {
     background-color: white; 
@@ -79,7 +85,7 @@
 @media only screen and (max-width: 900px) {
     .ProfileImg {
         padding: 0px;
-        margin-top: 10px;
+        margin-top: -30px;
         margin-left: auto;
         height: 200px;
     }
@@ -87,7 +93,7 @@
     .About {
         background-color: white; 
         color: black;
-        height: 240px;
+        height: 200px;
     }
 
     .Title {
@@ -115,9 +121,14 @@
         height: 240px;
     }
 
+    .InterestCardTitle {
+        margin-top: -20px;
+        font-size: 30px;
+    }
+
     .InterestCardBody {
         width: 300px;
-        height: 300px
+        height: 300px;
     }
 
     .InterstCardImage {
