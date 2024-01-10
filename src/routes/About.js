@@ -6,10 +6,13 @@ import ProfileImage from '../assets/profile-removebg-preview.png';
 import CardText from "react-bootstrap/esm/CardText";
 import CardTitle from "react-bootstrap/esm/CardTitle";
 import CardBody from "react-bootstrap/esm/CardBody";
-import ChessImage from '../assets/chessjpg-removebg-preview.png';
-import Catan from '../assets/catan-removebg-preview.png';
+import ChessImage from '../assets/chess.webp';
+import ZeldaPoster from '../assets/zelda.jpg';
+import LinkinParkPoster from '../assets/LinkinPark.jpg';
 import CardImg from "react-bootstrap/esm/CardImg";
-import CardImgOverlay from "react-bootstrap/esm/CardImgOverlay";
+import RanPoster from '../assets/ranPoster.jpg';
+import CatanPoster from '../assets/CatanPoster.jpg';
+import Badminton from '../assets/badminton.webp';
 function About() {
   return (
     <div style={{padding: "0px", margin: "0px"}}>
@@ -31,28 +34,40 @@ function About() {
       </div>
       <div className="Interest">
       <Card className="border-0 p-5" style={{backgroundColor: "lightgray", color: "black"}}>
-          <CardTitle className="SummaryCardTitle">Interest</CardTitle>
-          <CardBody className="InterestCardBody">
-              <Row>
+          <CardTitle className="SummaryCardTitle p-3">Interest</CardTitle>
+          <CardBody className="InterestCardBody p-0">
+              <Row className="m-0">
                 <Col className="InterstCardImage">Traveling</Col>
                 <Col className="InterstCardImage">Cooking</Col>
-                <Col className="InterstCardImage">Badminton</Col>
+                <Col className="InterstCardImage">
+                  <div className="InterstCardImageText">Badminton</div>
+                  <CardImg className="InterstCardImageImage" src={Badminton}></CardImg>
+                </Col>
               </Row>
-              <Row>
-                <Col className="InterstCardImage">Movies</Col>
-                <Col className="InterstCardImage">Music</Col>
-                <Col className="InterstCardImage">Video Games</Col>
+              <Row className="m-0">
+                <Col className="InterstCardImage">
+                  <div className="InterstCardImageText">Movies</div>
+                  <CardImg className="InterstCardImageImage" src={RanPoster}></CardImg>
+                </Col>
+                <Col className="InterstCardImage">             
+                  <div className="InterstCardImageText">Music</div>
+                  <CardImg className="InterstCardImageImage" src={LinkinParkPoster}></CardImg>
+                </Col>
+                <Col className="InterstCardImage">              
+                  <div className="InterstCardImageText">Video Games</div>
+                  <CardImg className="InterstCardImageImage" src={ZeldaPoster}></CardImg>
+                </Col>
               </Row>
-              <Row>
-              <Col className="InterstCardImage">Reading</Col>
-              <Col className="InterstCardImage">
-                <div className="InterstCardImageText">Chess</div>
-                <CardImg className="InterstCardImageImage" src={ChessImage}></CardImg>
-              </Col>
-              <Col className="InterstCardImage">
-                <div className="InterstCardImageText">Others</div>
-                <CardImg className="InterstCardImageImage" src={Catan}></CardImg>
-              </Col>
+              <Row className="m-0">
+                <Col className="InterstCardImage">Reading</Col>
+                <Col className="InterstCardImage">
+                  <div className="InterstCardImageText">Chess</div>
+                  <CardImg className="InterstCardImageImage" src={ChessImage}></CardImg>
+                </Col>
+                <Col className="InterstCardImage">
+                  <div className="InterstCardImageText">Others</div>
+                  <CardImg className="InterstCardImageImage" src={CatanPoster}></CardImg>
+                </Col>
               </Row>
           </CardBody>
         </Card>

@@ -5,6 +5,7 @@
     height: 300px;
 }
 
+
 .Summary {
     background-color: gray; 
     color: White;
@@ -14,12 +15,12 @@
 .Interest {
     background-color: lightgray; 
     color: black;
-    height: 800px;
+    height: 740px;
 }
 
 .InterstCardImageImage {
-    padding: 20px;
     margin-top: -80px;
+    object-fit: cover;
     opacity: 0.3;
 }
 
@@ -36,6 +37,7 @@
     padding: 0px;
     text-align: center;
     padding-top: 10%;
+    overflow: hidden;
 }
 
 .InterstCardImageImage:hover{
@@ -129,7 +131,6 @@
 
     .InterstCardImageImage {
         margin-top: -50px;
-        padding: 10px;
     }
 
     .InterstCardImageText{

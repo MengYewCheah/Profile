@@ -9,7 +9,7 @@ function Home() {
   return (
     <Container>
       <Row>
-        <Col className="col-12 col-md-3">
+        {/* <Col className="col-12 col-md-3">
           <Card className="p-3 mb-2 w-100 bg-white text-dark" style={{margin: "0"}}>
             <CardHeader>
               <CardImg src={ProfileImage}></CardImg>
@@ -38,7 +38,7 @@ function Home() {
               </CardText>
             </CardBody>
           </Card>
-        </Col>
+        </Col> */}
         <Col className="col-12 col-md-9">
           <Card className="p-3 mb-2 w-100 bg-white text-dark" style={{margin: "0"}}>
             <CardHeader>
