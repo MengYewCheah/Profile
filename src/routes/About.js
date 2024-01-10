@@ -12,7 +12,7 @@ import LinkinParkPoster from '../assets/LinkinPark.jpg';
 import CardImg from "react-bootstrap/esm/CardImg";
 import RanPoster from '../assets/ranPoster.jpg';
 import CatanPoster from '../assets/CatanPoster.jpg';
-import Badminton from '../assets/badminton.webp';
+import Badminton from '../assets/badminton.jpg';
 function About() {
   return (
     <div style={{padding: "0px", margin: "0px"}}>
