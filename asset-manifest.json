@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.48d6643b.css",
-    "main.js": "/Profile/static/js/main.faa8b631.js",
+    "main.css": "/Profile/static/css/main.4b304b0f.css",
+    "main.js": "/Profile/static/js/main.94ba6341.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
     "static/media/cooking.jpg": "/Profile/static/media/cooking.316a1e3276de7b5dd8ba.jpg",
     "static/media/travel.jpg": "/Profile/static/media/travel.0514a281789d278e622a.jpg",
     "static/media/books.jpg": "/Profile/static/media/books.1752231685ea35763443.jpg",
     "static/media/ranPoster.jpg": "/Profile/static/media/ranPoster.c56d3200929f5594d50d.jpg",
     "static/media/profile-pic.png": "/Profile/static/media/profile-pic.38994f7722670397bc40.png",
-    "static/media/profile-removebg-preview.png": "/Profile/static/media/profile-removebg-preview.f62ce259be81174f025a.png",
+    "static/media/profile4.png": "/Profile/static/media/profile4.8bcac4c939508bf3b21c.png",
     "static/media/LinkinPark.jpg": "/Profile/static/media/LinkinPark.5c280271598aa362cd1f.jpg",
     "static/media/zelda.jpg": "/Profile/static/media/zelda.502adbcd589acc5bc12b.jpg",
     "static/media/badminton.jpg": "/Profile/static/media/badminton.94d6468583168a6a79d5.jpg",
     "static/media/chess.webp": "/Profile/static/media/chess.f148908891d81669240f.webp",
     "index.html": "/Profile/index.html",
-    "main.48d6643b.css.map": "/Profile/static/css/main.48d6643b.css.map",
-    "main.faa8b631.js.map": "/Profile/static/js/main.faa8b631.js.map",
+    "main.4b304b0f.css.map": "/Profile/static/css/main.4b304b0f.css.map",
+    "main.94ba6341.js.map": "/Profile/static/js/main.94ba6341.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d6643b.css",
-    "static/js/main.faa8b631.js"
+    "static/css/main.4b304b0f.css",
+    "static/js/main.94ba6341.js"
   ]
 }
