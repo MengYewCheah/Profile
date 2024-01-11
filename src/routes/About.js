@@ -2,7 +2,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import "./About.css";
-import ProfileImage from '../assets/profile-removebg-preview.png';
+import ProfileImage from '../assets/profile4.png';
 import CardText from "react-bootstrap/esm/CardText";
 import CardTitle from "react-bootstrap/esm/CardTitle";
 import CardBody from "react-bootstrap/esm/CardBody";
