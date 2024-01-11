@@ -18,6 +18,18 @@
     height: 740px;
 }
 
+.Projects {
+    background-color: white; 
+    color: black;
+    height: 600px;
+}
+
+.ProjectsTitle {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
 .InterstCardImageImage {
     margin-top: -80px;
     object-fit: cover;
@@ -57,8 +69,6 @@
     margin: auto;
     font-size: 40px;
 }
-
-
 
 .About {
     background-color: white; 
@@ -154,6 +164,9 @@
         font-weight: bold;
     }
     
+    .ProjectsTitle {
+        padding-top: 70px;
+    }
 }
 
 @media only screen and (max-width: 600px) {

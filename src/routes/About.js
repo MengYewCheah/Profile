@@ -16,6 +16,8 @@ import Badminton from '../assets/badminton.jpg';
 import Travel from '../assets/travel.jpg';
 import Cooking from '../assets/cooking.jpg';
 import Reading from '../assets/books.jpg';
+import ProfileProject from '../assets/Profile.png';
+import { CardHeader } from "react-bootstrap";
 function About() {
   return (
     <div style={{padding: "0px", margin: "0px"}}>
@@ -102,6 +104,30 @@ function About() {
             </CardText>
           </CardBody>
         </Card>
+      </div>
+      <div className="Projects">
+        <div className="ProjectsTitle" >Projects</div>
+        <Row className="p-0 m-0">
+          <Col>
+            <Card style={{width: "300px", height: "420px", margin: "auto", marginTop: "0px"}}>
+              <CardHeader style={{margin: "auto", padding: "30px"}}>
+                <CardImg src={ProfileProject} style={{width: "200px"}}></CardImg>
+              </CardHeader>
+              <CardBody className="p-5">
+              <CardTitle style={{fontWeight: "bold", paddingLeft: "25%", fontSize: "18px"}}>Profile Page</CardTitle>
+                <CardText>Using a combination of Github hosting for backend, React and Bootstrap for frontend we can deploy a profile page for FREE.</CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* <Col style={{border: "1px solid red", width: "00px"}}>
+            <Card style={{width: "700px", height: "500px", margin: "auto", marginTop: "0px"}}>
+              <CardHeader>
+                <CardImg src={ProfileProject}  style={{width: "300px", border: "1px solid red", marginLeft: "35%"}}></CardImg>
+              </CardHeader>
+              <CardTitle style={{marginLeft: "50%", border: "1px solid red", fontWeight: "bold"}}>Profile Page</CardTitle>
+            </Card>
+          </Col> */}
+        </Row>
       </div>
     </div>
   )
