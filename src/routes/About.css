@@ -165,12 +165,16 @@
     }
     
     .ProjectsTitle {
-        padding-top: 100px;
+        padding-top: 90px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .ProfileImg {
         margin-left: -100px;
+    }
+
+    .ProjectsTitle {
+        padding-top: 120px;
     }
 }
