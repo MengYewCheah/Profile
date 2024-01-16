@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.32111660.css",
-    "main.js": "/Profile/static/js/main.c89a6cdf.js",
+    "main.css": "/Profile/static/css/main.1dada493.css",
+    "main.js": "/Profile/static/js/main.cca62a41.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
     "static/media/cooking.jpg": "/Profile/static/media/cooking.316a1e3276de7b5dd8ba.jpg",
     "static/media/travel.jpg": "/Profile/static/media/travel.0514a281789d278e622a.jpg",
     "static/media/books.jpg": "/Profile/static/media/books.1752231685ea35763443.jpg",
     "static/media/ranPoster.jpg": "/Profile/static/media/ranPoster.c56d3200929f5594d50d.jpg",
     "static/media/profile-pic.png": "/Profile/static/media/profile-pic.38994f7722670397bc40.png",
+    "static/media/lemon.png": "/Profile/static/media/lemon.688bbddb49773fe27dcd.png",
     "static/media/profile4.png": "/Profile/static/media/profile4.8bcac4c939508bf3b21c.png",
     "static/media/Profile.png": "/Profile/static/media/Profile.a89877ad97f87f5bd854.png",
     "static/media/LinkinPark.jpg": "/Profile/static/media/LinkinPark.5c280271598aa362cd1f.jpg",
@@ -15,12 +16,13 @@
     "static/media/badminton.jpg": "/Profile/static/media/badminton.94d6468583168a6a79d5.jpg",
     "static/media/chess.webp": "/Profile/static/media/chess.f148908891d81669240f.webp",
     "index.html": "/Profile/index.html",
-    "main.32111660.css.map": "/Profile/static/css/main.32111660.css.map",
-    "main.c89a6cdf.js.map": "/Profile/static/js/main.c89a6cdf.js.map",
+    "static/media/arrow.svg": "/Profile/static/media/arrow.fc1f02cab18030df751c6d3b167a10be.svg",
+    "main.1dada493.css.map": "/Profile/static/css/main.1dada493.css.map",
+    "main.cca62a41.js.map": "/Profile/static/js/main.cca62a41.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32111660.css",
-    "static/js/main.c89a6cdf.js"
+    "static/css/main.1dada493.css",
+    "static/js/main.cca62a41.js"
   ]
 }
