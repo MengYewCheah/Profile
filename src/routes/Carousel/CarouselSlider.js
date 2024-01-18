@@ -62,7 +62,7 @@ const CarouselSlider = ({ setSlideCount, setCurrentSlide }) => {
           <Card projectImg={LoadMonitoring} projectName={'Load Testing Monitor'} projectDescription={'Creating a real time load monitoring tool using express js API, React and node js that can generate load testing reports.'}/>
         </Slide>
         <Slide index={2}>
-          <Card projectImg={Selenium} projectName={'Test Automation'} projectDescription={'Automating test using selenium  js and webdriver. Successfully reduce the number of manual test. '}/>
+          <Card projectImg={Selenium} projectName={'Test Automation'} projectDescription={'Automating test using selenium  js and webdriver. Successfully reduce the number of manual test and created CI/CD pipeline.'}/>
         </Slide>
         {/* <Slide index={3}>
           <Card />
