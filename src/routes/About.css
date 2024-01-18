@@ -21,7 +21,7 @@
 .Projects {
     background-color: white; 
     color: black;
-    height: 600px;
+    height: 630px;
 }
 
 .ProjectsTitle {
@@ -187,7 +187,7 @@
     }
 
     .Projects {
-        height: 1050px;
+        height: 630px;
     }
     
 }
@@ -199,5 +199,9 @@
 
     .ProjectsTitle {
         padding-top: 120px;
+    }
+
+    .Projects {
+        height: 730px;
     }
 }

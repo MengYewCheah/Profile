@@ -19,6 +19,7 @@ import Cooking from '../assets/cooking.jpg';
 import Reading from '../assets/books.jpg';
 import React from "react";
 import ProfileProject from '../assets/Profile.png'
+import CarouselProjects from '../routes/Carousel/CarouselProjects'
 function About() {
   return (
     <div style={{padding: "0px", margin: "0px"}}>
@@ -136,66 +137,7 @@ class Project extends React.Component{
     return (
       <div className="Projects">
       <div className="ProjectsTitle" >Projects</div>
-      {
-        this.state.windowWidth && 
-      <Row className="p-0 m-0" style={{border: "1px solid transparent"}}>
-                <Col></Col>
-        <Col style={{border: "1px solid transparent"}}>
-          <Card className="ProjectCard">
-            <CardHeader style={{margin: "auto", padding: "30px", border: "1px solid transparent"}}>
-              <CardImg src={ProfileProject} style={{width: "200px", border: "1px solid transparent"}}></CardImg>
-            </CardHeader>
-            <CardBody className="p-5">
-            <CardTitle style={{fontWeight: "bold", paddingLeft: "30%", fontSize: "18px", border: "1px solid transparent"}}>Profile Page</CardTitle>
-              <CardText style={{border: "1px solid transparent"}}>Using a combination of Github hosting for backend, React and Bootstrap for frontend we can deploy a profile page for FREE.</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col>
-          <Card className="ProjectCard">
-            <CardHeader style={{margin: "auto", padding: "30px", border: "1px solid transparent"}}>
-              <CardImg src={ProfileProject} style={{width: "200px", border: "1px solid transparent"}}></CardImg>
-            </CardHeader>
-            <CardBody className="p-5">
-            <CardTitle style={{fontWeight: "bold", paddingLeft: "30%", fontSize: "18px", border: "1px solid transparent"}}>Profile Page</CardTitle>
-              <CardText style={{border: "1px solid transparent"}}>Using a combination of Github hosting for backend, React and Bootstrap for frontend we can deploy a profile page for FREE.</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col></Col>
-      </Row>
-      }
-      {
-        this.state.windowWidth == false &&
-        <div>
-        <Row className="p-0 m-0" style={{border: "1px solid transparent"}}>
-          <Col style={{border: "1px solid transparent"}}>
-            <Card className="ProjectCard">
-              <CardHeader style={{margin: "auto", padding: "30px", border: "1px solid transparent"}}>
-                <CardImg src={ProfileProject} style={{width: "200px", border: "1px solid transparent"}}></CardImg>
-              </CardHeader>
-              <CardBody className="p-5">
-              <CardTitle style={{fontWeight: "bold", paddingLeft: "30%", fontSize: "18px", border: "1px solid transparent"}}>Profile Page</CardTitle>
-                <CardText style={{border: "1px solid transparent"}}>Using a combination of Github hosting for backend, React and Bootstrap for frontend we can deploy a profile page for FREE.</CardText>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="p-0 m-0" style={{border: "1px solid transparent"}}>
-          <Col style={{border: "1px solid transparent"}}>
-            <Card className="ProjectCard">
-              <CardHeader style={{margin: "auto", padding: "30px", border: "1px solid transparent"}}>
-                <CardImg src={ProfileProject} style={{width: "200px", border: "1px solid transparent"}}></CardImg>
-              </CardHeader>
-              <CardBody className="p-5">
-              <CardTitle style={{fontWeight: "bold", paddingLeft: "30%", fontSize: "18px", border: "1px solid transparent"}}>Profile Page</CardTitle>
-                <CardText style={{border: "1px solid transparent"}}>Using a combination of Github hosting for backend, React and Bootstrap for frontend we can deploy a profile page for FREE.</CardText>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        </div>
-      }
+      <CarouselProjects/>
   </div>
     )
   }
