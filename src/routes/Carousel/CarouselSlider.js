@@ -12,9 +12,10 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 import styled from "styled-components";
 import useWindowSize from "../../hooks/windowSize";
 import Card from "./Card";
-import ProfilePage from '../../assets/Profile.png';
 import LoadMonitoring from '../../assets/loadMonitoring.png';
-import Selenium from '../../assets/Selenium.png';
+import Selenium from '../../assets/Selenium.jpeg';
+import ReactGithub from '../../assets/ReactGithub.jpg';
+import NodeExpressImage from '../../assets/nodejsExpressjs.png';
 
 const CarouselSlider = ({ setSlideCount, setCurrentSlide }) => {
   const screenWidth = useWindowSize();
@@ -56,10 +57,10 @@ const CarouselSlider = ({ setSlideCount, setCurrentSlide }) => {
     <Wrapper>
       <Slider>
         <Slide index={0} className="slide">
-          <Card projectImg={ProfilePage} projectName={'Profile Page'} projectDescription={'Using a combination of Github hosting for backend, React and Bootstrap for frontend we can deploy a profile page for FREE.'}/>
+          <Card projectImg={ReactGithub} projectName={'Profile Page'} projectDescription={'Using a combination of Github hosting for backend, React and Bootstrap for frontend we can deploy a profile page for FREE.'}/>
         </Slide>
         <Slide index={1}>
-          <Card projectImg={LoadMonitoring} projectName={'Load Testing Monitor'} projectDescription={'Creating a real time load monitoring tool using express js API, React and node js that can generate load testing reports.'}/>
+          <Card projectImg={NodeExpressImage} projectName={'Load Testing Monitor'} projectDescription={'Creating a real time load monitoring tool using express js API, React and node js that can generate load testing reports.'}/>
         </Slide>
         <Slide index={2}>
           <Card projectImg={Selenium} projectName={'Test Automation'} projectDescription={'Automating test using selenium  js and webdriver. Successfully reduce the number of manual test and created CI/CD pipeline.'}/>
