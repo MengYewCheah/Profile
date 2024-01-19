@@ -206,3 +206,13 @@
         height: 630px;
     }
 }
+
+@media only screen and (max-width: 300px) {
+    .ProjectsTitle {
+        padding-top: 130px;
+    }
+
+    .Projects {
+        height: 730px;
+    }
+}
