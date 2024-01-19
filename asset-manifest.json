@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/Profile/static/css/main.22037dac.css",
-    "main.js": "/Profile/static/js/main.ae279c7e.js",
+    "main.js": "/Profile/static/js/main.08413d66.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
     "static/media/ranPoster.jpg": "/Profile/static/media/ranPoster.c56d3200929f5594d50d.jpg",
     "static/media/profile-pic.png": "/Profile/static/media/profile-pic.38994f7722670397bc40.png",
     "static/media/lemon.png": "/Profile/static/media/lemon.688bbddb49773fe27dcd.png",
-    "static/media/Selenium.png": "/Profile/static/media/Selenium.7b094e9f03734d3a1cd9.png",
     "static/media/loadMonitoring.png": "/Profile/static/media/loadMonitoring.d3e740136a87bdf81152.png",
     "static/media/Java.png": "/Profile/static/media/Java.419d2ce2cc4fee953349.png",
     "static/media/HTMLCSS.png": "/Profile/static/media/HTMLCSS.c429cac803347f6d922a.png",
     "static/media/profile4.png": "/Profile/static/media/profile4.8bcac4c939508bf3b21c.png",
-    "static/media/Profile.png": "/Profile/static/media/Profile.d314503a5a502db6052c.png",
+    "static/media/nodejsExpressjs.png": "/Profile/static/media/nodejsExpressjs.fe1eec364f69de4ba3f1.png",
     "static/media/React.png": "/Profile/static/media/React.2fad5f467c7c76cdfa4f.png",
-    "static/media/chess.webp": "/Profile/static/media/chess.f148908891d81669240f.webp",
+    "static/media/Selenium.jpeg": "/Profile/static/media/Selenium.23fbaf10d90b2b7f6916.jpeg",
+    "static/media/ReactGithub.jpg": "/Profile/static/media/ReactGithub.5967ff1af6e5d17d0b87.jpg",
     "static/media/ShellScripting.jpg": "/Profile/static/media/ShellScripting.851d8e552e17890c1dc4.jpg",
     "static/media/algorithmAndDataStructure.png": "/Profile/static/media/algorithmAndDataStructure.28c0d9b47635bc34b094.png",
     "static/media/PythonProgramming.jpg": "/Profile/static/media/PythonProgramming.0190b135458040be4246.jpg",
     "index.html": "/Profile/index.html",
     "static/media/arrow.svg": "/Profile/static/media/arrow.fc1f02cab18030df751c6d3b167a10be.svg",
     "main.22037dac.css.map": "/Profile/static/css/main.22037dac.css.map",
-    "main.ae279c7e.js.map": "/Profile/static/js/main.ae279c7e.js.map",
+    "main.08413d66.js.map": "/Profile/static/js/main.08413d66.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22037dac.css",
-    "static/js/main.ae279c7e.js"
+    "static/js/main.08413d66.js"
   ]
 }
