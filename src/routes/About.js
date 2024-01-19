@@ -13,7 +13,7 @@ import JavaScript from '../assets/Javascript.jpg';
 import CarouselProjects from '../routes/Carousel/CarouselProjects';
 import ReactImage from '../assets/React.png';
 import NodeJSImage from '../assets/Node.png';
-import JavaImage from '../assets/Java.png';
+import JavaImage from '../assets/Java.webp';
 import MySQLImage from '../assets/MySQL.png';
 import ShellScriptingImage from '../assets/ShellScripting.jpg';
 import HTMLCSSImage from '../assets/HTMLCSS.png';

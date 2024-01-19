@@ -12,7 +12,6 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 import styled from "styled-components";
 import useWindowSize from "../../hooks/windowSize";
 import Card from "./Card";
-import LoadMonitoring from '../../assets/loadMonitoring.png';
 import Selenium from '../../assets/Selenium.jpeg';
 import ReactGithub from '../../assets/ReactGithub.jpg';
 import NodeExpressImage from '../../assets/nodejsExpressjs.png';
