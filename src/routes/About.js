@@ -1,25 +1,25 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import { CardHeader,  } from "react-bootstrap";
 import "./About.css";
 import ProfileImage from '../assets/profile4.png';
 import CardText from "react-bootstrap/esm/CardText";
 import CardTitle from "react-bootstrap/esm/CardTitle";
 import CardBody from "react-bootstrap/esm/CardBody";
 import ChessImage from '../assets/chess.webp';
-import ZeldaPoster from '../assets/zelda.jpg';
-import LinkinParkPoster from '../assets/LinkinPark.jpg';
 import CardImg from "react-bootstrap/esm/CardImg";
-import RanPoster from '../assets/ranPoster.jpg';
 import CatanPoster from '../assets/CatanPoster.jpg';
-import Badminton from '../assets/badminton.jpg';
-import Travel from '../assets/travel.jpg';
-import Cooking from '../assets/cooking.jpg';
-import Reading from '../assets/books.jpg';
 import React from "react";
-import ProfileProject from '../assets/Profile.png'
-import CarouselProjects from '../routes/Carousel/CarouselProjects'
+import PythonProgramming from '../assets/PythonProgramming.jpg';
+import JavaScript from '../assets/Javascript.jpg';
+import CarouselProjects from '../routes/Carousel/CarouselProjects';
+import ReactImage from '../assets/React.png';
+import NodeJSImage from '../assets/Node.png';
+import JavaImage from '../assets/Java.png';
+import MySQLImage from '../assets/MySQL.png';
+import ShellScriptingImage from '../assets/ShellScripting.jpg';
+import HTMLCSSImage from '../assets/HTMLCSS.png';
+import AlgorithmAndDataStructure from '../assets/algorithmAndDataStructure.png';
 function About() {
   return (
     <div style={{padding: "0px", margin: "0px"}}>
@@ -39,74 +39,8 @@ function About() {
           </Col>
         </Row>
       </div>
-      <div className="Interest">
-      <Card className="border-0 p-5" style={{backgroundColor: "lightgray", color: "black"}}>
-          <CardTitle className="InterestCardTitle p-3">Interest</CardTitle>
-          <CardBody className="InterestCardBody p-0">
-              <Row className="m-0">
-                <Col className="InterstCardImage">
-                  <div className="InterstCardImageText">Travel</div>
-                  <CardImg className="InterstCardImageImage" src={Travel}></CardImg>
-                </Col>
-                <Col className="InterstCardImage">
-                  <div className="InterstCardImageText">Cooking</div>
-                  <CardImg className="InterstCardImageImage" src={Cooking}></CardImg>
-                </Col>
-                <Col className="InterstCardImage">
-                  <div className="InterstCardImageText">Badminton</div>
-                  <CardImg className="InterstCardImageImage" src={Badminton}></CardImg>
-                </Col>
-              </Row>
-              <Row className="m-0">
-                <Col className="InterstCardImage">
-                  <div className="InterstCardImageText">Movies</div>
-                  <CardImg className="InterstCardImageImage" src={RanPoster}></CardImg>
-                </Col>
-                <Col className="InterstCardImage">             
-                  <div className="InterstCardImageText">Music</div>
-                  <CardImg className="InterstCardImageImage" src={LinkinParkPoster}></CardImg>
-                </Col>
-                <Col className="InterstCardImage">              
-                  <div className="InterstCardImageText">Video Games</div>
-                  <CardImg className="InterstCardImageImage" src={ZeldaPoster}></CardImg>
-                </Col>
-              </Row>
-              <Row className="m-0">
-                <Col className="InterstCardImage">
-                  <div className="InterstCardImageText">Reading</div>
-                  <CardImg className="InterstCardImageImage" src={Reading}></CardImg>
-                </Col>
-                <Col className="InterstCardImage">
-                  <div className="InterstCardImageText">Chess</div>
-                  <CardImg className="InterstCardImageImage" src={ChessImage}></CardImg>
-                </Col>
-                <Col className="InterstCardImage">
-                  <div className="InterstCardImageText">Others</div>
-                  <CardImg className="InterstCardImageImage" src={CatanPoster}></CardImg>
-                </Col>
-              </Row>
-          </CardBody>
-        </Card>
-      </div>
-      <div className="Summary">
-        <Card className="border-0 p-5" style={{backgroundColor: "gray", color: "white"}}>
-          <CardTitle className="SummaryCardTitle">About Me</CardTitle>
-          <CardBody style={{margin: "auto"}}>
-            <CardText className="CardText">
-              Born and raised in Kuala Lumpur Malaysia.
-            </CardText>
-            <CardText className="CardText">
-              Graduated with Bachelor of Computer Science from Monash University. 
-            </CardText>
-            <CardText className="CardText">
-              Actively learning new technologies.
-            </CardText>
-            <CardText className="CardText">
-              Looking for something more challenging.
-            </CardText>
-          </CardBody>
-        </Card>
-      </div>
+      <Interest/>
+      <Summary/>
       <Project/>
     </div>
   )
@@ -141,6 +75,84 @@ class Project extends React.Component{
   </div>
     )
   }
+}
+
+function Summary () {
+  return (
+    <div className="Summary">
+      <Card className="border-0 p-5" style={{backgroundColor: "gray", color: "white"}}>
+        <CardTitle className="SummaryCardTitle">About Me</CardTitle>
+        <CardBody style={{margin: "auto"}}>
+          <CardText className="CardText">
+            Born and raised in Kuala Lumpur Malaysia.
+          </CardText>
+          <CardText className="CardText">
+            Graduated with Bachelor of Computer Science from Monash University. 
+          </CardText>
+          <CardText className="CardText">
+            Actively learning new technologies.
+          </CardText>
+          <CardText className="CardText">
+            Looking for something more challenging.
+          </CardText>
+        </CardBody>
+      </Card>
+    </div>
+  )
+}
+
+function Interest () {
+  return (
+    <div className="Interest">
+      <Card className="border-0 p-5" style={{backgroundColor: "lightgray", color: "black"}}>
+        <CardTitle className="InterestCardTitle p-3">Skills</CardTitle>
+        <CardBody className="InterestCardBody p-0">
+            <Row className="m-0">
+              <Col className="InterstCardImage">
+                <div className="InterstCardImageText">PYTHON</div>
+                <CardImg className="InterstCardImageImage" src={PythonProgramming}></CardImg>
+              </Col>
+              <Col className="InterstCardImage">
+                <div className="InterstCardImageText">JAVASCRIPT</div>
+                <CardImg className="InterstCardImageImage" src={JavaScript}></CardImg>
+              </Col>
+              <Col className="InterstCardImage">
+                <div className="InterstCardImageText">REACT</div>
+                <CardImg className="InterstCardImageImage" src={ReactImage}></CardImg>
+              </Col>
+            </Row>
+            <Row className="m-0">
+              <Col className="InterstCardImage">
+                <div className="InterstCardImageText">NODE JS</div>
+                <CardImg className="InterstCardImageImage" src={NodeJSImage}></CardImg>
+              </Col>
+              <Col className="InterstCardImage">             
+                <div className="InterstCardImageText">HTML + CSS</div>
+                <CardImg className="InterstCardImageImage" src={HTMLCSSImage}></CardImg>
+              </Col>
+              <Col className="InterstCardImage">              
+                <div className="InterstCardImageText">MY SQL</div>
+                <CardImg className="InterstCardImageImage" src={MySQLImage}></CardImg>
+              </Col>
+            </Row>
+            <Row className="m-0">
+              <Col className="InterstCardImage">
+                <div className="InterstCardImageText">Shell Scripting</div>
+                <CardImg className="InterstCardImageImage" src={ShellScriptingImage}></CardImg>
+              </Col>
+              <Col className="InterstCardImage">
+                <div className="InterstCardImageText">JAVA</div>
+                <CardImg className="InterstCardImageImage" src={JavaImage}></CardImg>
+              </Col>
+              <Col className="InterstCardImage">
+                <div className="InterstCardImageText">ALGORITHM</div>
+                <CardImg className="InterstCardImageImage" src={AlgorithmAndDataStructure}></CardImg>
+              </Col>
+            </Row>
+        </CardBody>
+      </Card>
+    </div>
+  )
 }
 
 export default About;
