@@ -103,7 +103,7 @@ function Interest () {
   return (
     <div className="Interest">
       <Card className="border-0 p-5" style={{backgroundColor: "lightgray", color: "black"}}>
-        <CardTitle className="InterestCardTitle p-3">Skills</CardTitle>
+        <CardTitle className="InterestCardTitle p-3">Passion</CardTitle>
         <CardBody className="InterestCardBody p-0">
             <Row className="m-0">
               <Col className="InterstCardImage">
