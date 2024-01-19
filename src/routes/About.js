@@ -152,5 +152,4 @@ function Interest () {
     </div>
   )
 }
-
 export default About;
