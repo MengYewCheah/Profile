@@ -78,21 +78,21 @@ class Project extends React.Component{
 function Summary () {
   return (
     <div className="Summary">
-      <Card className="border-0 p-5" style={{backgroundColor: "gray", color: "white"}}>
-        <CardTitle className="SummaryCardTitle">About Me</CardTitle>
-        <CardBody style={{margin: "auto"}}>
+      <Card className="border-1 p-5 m-0" style={{backgroundColor: "gray", color: "white"}}>
+        <CardTitle className="SummaryCardTitle">Experience</CardTitle>
+        <CardBody style={{margin: "auto", maxWidth: "800px"}}>
           <CardText className="CardText">
-            Born and raised in Kuala Lumpur Malaysia.
+            Internship in Finology Sdn Bhd as a Business Consultant (2021) 
           </CardText>
           <CardText className="CardText">
-            Graduated with Bachelor of Computer Science from Monash University. 
+            Graduated with Bachelor of Computer Science from Monash University. (2022)
           </CardText>
           <CardText className="CardText">
-            Actively learning new technologies.
+            Work in Dassault Systemes as a Software Quality Assurance Engineer (2022 - now )
           </CardText>
-          <CardText className="CardText">
-            Looking for something more challenging.
-          </CardText>
+          {/* <CardText className="CardText">
+            Eager to learn new technologies to keep myself relevant. Looking for something more challenging.
+          </CardText> */}
         </CardBody>
       </Card>
     </div>
