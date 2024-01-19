@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Profile/static/css/main.1efc512d.css",
-    "main.js": "/Profile/static/js/main.2fb0c7b6.js",
+    "main.js": "/Profile/static/js/main.6e75cbd1.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
     "static/media/fa-solid-900.svg": "/Profile/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/Profile/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -30,15 +30,14 @@
     "static/media/algorithmAndDataStructure.png": "/Profile/static/media/algorithmAndDataStructure.28c0d9b47635bc34b094.png",
     "static/media/PythonProgramming.jpg": "/Profile/static/media/PythonProgramming.0190b135458040be4246.jpg",
     "static/media/fa-regular-400.woff2": "/Profile/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
-    "static/media/Java.webp": "/Profile/static/media/Java.5f0bb00a3c3f9b70e2fe.webp",
     "index.html": "/Profile/index.html",
     "static/media/arrow.svg": "/Profile/static/media/arrow.fc1f02cab18030df751c6d3b167a10be.svg",
     "main.1efc512d.css.map": "/Profile/static/css/main.1efc512d.css.map",
-    "main.2fb0c7b6.js.map": "/Profile/static/js/main.2fb0c7b6.js.map",
+    "main.6e75cbd1.js.map": "/Profile/static/js/main.6e75cbd1.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1efc512d.css",
-    "static/js/main.2fb0c7b6.js"
+    "static/js/main.6e75cbd1.js"
   ]
 }
