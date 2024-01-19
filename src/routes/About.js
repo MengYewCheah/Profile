@@ -90,7 +90,7 @@ function About() {
       </div>
       <div className="Summary">
         <Card className="border-0 p-5" style={{backgroundColor: "gray", color: "white"}}>
-          <CardTitle className="SummaryCardTitle">Summary</CardTitle>
+          <CardTitle className="SummaryCardTitle">About Me</CardTitle>
           <CardBody style={{margin: "auto"}}>
             <CardText className="CardText">
               Born and raised in Kuala Lumpur Malaysia.

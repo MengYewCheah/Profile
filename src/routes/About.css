@@ -179,6 +179,7 @@
     
     .ProjectsTitle {
         padding-top: 50px;
+        font-size: 30px;
     }
 
     .ProjectCard {
@@ -198,10 +199,10 @@
     }
 
     .ProjectsTitle {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .Projects {
-        height: 730px;
+        height: 630px;
     }
 }
