@@ -207,7 +207,7 @@
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 360px) {
     .ProjectsTitle {
         padding-top: 130px;
     }
