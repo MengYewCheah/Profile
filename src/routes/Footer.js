@@ -16,7 +16,7 @@ function Footer () {
                 CHEAH MENG YEW
               </h6>
               <p>
-                Feel free to contact me through email or whatsapp, I will try my best to respond within 3 days.
+                Feel free to contact me through email or whatsapp, I will respond within 3 days.
               </p>
             </MDBCol>
 
