@@ -167,40 +167,40 @@ function Experience () {
         <CardTitle className="SummaryCardTitle">Experience</CardTitle>
     </Card>
     <Container className="ExperienceCont" style={{border: "1px solid transparent"}}>
-    <Row>
-      <Row>
-        <Col className="col-3 p-4 " style={{border: "1px solid transparent", marginTop: "18px"}}>
-          <div style={{maxWidth: "100%", border: "1px solid transparent"}}> <img src={DassaultSystemesImage} style={{maxWidth: "100%"}}></img></div>
-        </Col>
-        <Col style={{border: "1px solid transparent"}}>        
-          <Card className="border-0 bg-transparent" style={{color: "white"}}>
-            <CardBody>
-              <CardText className="font-weight-bold"><h3>Software Quality Assurance Engineer</h3></CardText>
-              <CardText><h5>Dassault Systemes - Full Time</h5></CardText>
-              <CardText className="m-0 p-0"><h6>Feb 2022 - Present 2 yrs</h6></CardText>
-              <CardText className="m-0 p-0"><h6>Petaling Jaya, Selangor, Malaysia On Site</h6></CardText>
-            </CardBody>
-          </Card>
-        </Col>
+      <Row style={{border: "1px solid transparent", marginLeft: "20px"}}>
+        <Row>
+          <Col className="col-3 p-4 " style={{border: "1px solid transparent", marginTop: "18px"}}>
+            <div style={{maxWidth: "100%", border: "1px solid transparent"}}> <img src={DassaultSystemesImage} style={{maxWidth: "100%"}}></img></div>
+          </Col>
+          <Col style={{border: "1px solid transparent"}}>        
+            <Card className="border-0 bg-transparent" style={{color: "white"}}>
+              <CardBody>
+                <CardText className="font-weight-bold"><h3>Software Quality Assurance Engineer</h3></CardText>
+                <CardText><h5>Dassault Systemes - Full Time</h5></CardText>
+                <CardText className="m-0 p-0"><h6>Feb 2022 - Present 2 yrs</h6></CardText>
+                <CardText className="m-0 p-0"><h6>Petaling Jaya, Selangor, Malaysia On Site</h6></CardText>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
       </Row>
-    </Row>
-    <Row>
-      <Row>
-        <Col className="col-3 p-4 " style={{border: "1px solid transparent", marginTop: "18px"}}>
-          <div style={{maxWidth: "100%", border: "1px solid transparent", backgroundColor: "white", paddingLeft: "5%"}}> <img src={FinologyImage} style={{maxWidth: "100%"}}></img></div>
-        </Col>
-        <Col style={{border: "1px solid transparent"}}>        
-          <Card className="border-0 bg-transparent" style={{color: "white"}}>
-            <CardBody>
-              <CardText className="font-weight-bold"><h3>Business Consultant Internship</h3></CardText>
-              <CardText><h5>Finology- Full Time</h5></CardText>
-              <CardText className="m-0 p-0"><h6>Nov 2019 - Feb 2021 3 mths</h6></CardText>
-              <CardText className="m-0 p-0"><h6>Kuala Lumpur, Malaysia On Site</h6></CardText>
-            </CardBody>
-          </Card>
-        </Col>
+      <Row style={{border: "1px solid transparent", marginLeft: "20px"}}>
+        <Row>
+          <Col className="col-3 p-4 " style={{border: "1px solid transparent", marginTop: "18px"}}>
+            <div style={{maxWidth: "100%", border: "1px solid transparent", backgroundColor: "white", paddingLeft: "5%"}}> <img src={FinologyImage} style={{maxWidth: "100%"}}></img></div>
+          </Col>
+          <Col style={{border: "1px solid transparent"}}>        
+            <Card className="border-0 bg-transparent" style={{color: "white"}}>
+              <CardBody>
+                <CardText className="font-weight-bold"><h3>Business Consultant Internship</h3></CardText>
+                <CardText><h5>Finology- Full Time</h5></CardText>
+                <CardText className="m-0 p-0"><h6>Nov 2019 - Feb 2021 3 mths</h6></CardText>
+                <CardText className="m-0 p-0"><h6>Kuala Lumpur, Malaysia On Site</h6></CardText>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
       </Row>
-    </Row>
     </Container>
     </div>
   )
