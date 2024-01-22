@@ -162,7 +162,7 @@ function Interest () {
 
 function Experience () {
   return (
-    <div className="Summary" style={{height: "450px"}}>
+    <div className="Summary" style={{height: "410px"}}>
     <Card className="border-0 p-4 m-0" style={{backgroundColor: "gray", color: "white"}}>
         <CardTitle className="SummaryCardTitle">Experience</CardTitle>
     </Card>
@@ -175,7 +175,7 @@ function Experience () {
           <Col style={{border: "1px solid transparent"}}>        
             <Card className="border-0 bg-transparent" style={{color: "white"}}>
               <CardBody>
-                <CardText className="font-weight-bold"><h3>Software Quality Assurance Engineer</h3></CardText>
+                <CardText className="font-weight-bold"><h4>Software Quality Assurance Engineer</h4></CardText>
                 <CardText><h5>Dassault Systemes - Full Time</h5></CardText>
                 <CardText className="m-0 p-0"><h6>Feb 2022 - Present 2 yrs</h6></CardText>
                 <CardText className="m-0 p-0"><h6>Petaling Jaya, Selangor, Malaysia On Site</h6></CardText>
@@ -192,9 +192,9 @@ function Experience () {
           <Col style={{border: "1px solid transparent"}}>        
             <Card className="border-0 bg-transparent" style={{color: "white"}}>
               <CardBody>
-                <CardText className="font-weight-bold"><h3>Business Consultant Internship</h3></CardText>
+                <CardText className="font-weight-bold"><h4>Business Consultant Internship</h4></CardText>
                 <CardText><h5>Finology- Full Time</h5></CardText>
-                <CardText className="m-0 p-0"><h6>Nov 2019 - Feb 2021 3 mths</h6></CardText>
+                <CardText className="m-0 p-0"><h6>Nov 2020 - Feb 2021 3 mths</h6></CardText>
                 <CardText className="m-0 p-0"><h6>Kuala Lumpur, Malaysia On Site</h6></CardText>
               </CardBody>
             </Card>
