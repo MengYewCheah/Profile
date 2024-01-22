@@ -178,7 +178,7 @@ function Experience () {
               <CardText className="font-weight-bold"><h3>Software Quality Assurance Engineer</h3></CardText>
               <CardText><h5>Dassault Systemes - Full Time</h5></CardText>
               <CardText className="m-0 p-0"><h6>Feb 2022 - Present 2 yrs</h6></CardText>
-              <CardText className="m-0 p-0"><h6>Petaling Jaya, Selangor, Malaysia On Site</h6></CardText>
+              <CardText className="m-0 p-0"><h6>Jalan Awan Hijau, Kuala Lumpur, Malaysia On Site</h6></CardText>
             </CardBody>
           </Card>
         </Col>
