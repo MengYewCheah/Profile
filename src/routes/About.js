@@ -169,7 +169,7 @@ function Experience () {
     <Container className="ExperienceCont" style={{border: "1px solid transparent"}}>
       <Row style={{border: "1px solid transparent", marginLeft: "16px"}}>
         <Row>
-          <Col className="col-3 p-4 " style={{border: "1px solid transparent", marginTop: "18px"}}>
+          <Col className="col-3 p-3" style={{border: "1px solid transparent", marginTop: "12px"}}>
             <div style={{maxWidth: "100%", border: "1px solid transparent"}}> <img src={DassaultSystemesImage} style={{maxWidth: "100%"}}></img></div>
           </Col>
           <Col style={{border: "1px solid transparent"}}>        
@@ -186,7 +186,7 @@ function Experience () {
       </Row>
       <Row style={{border: "1px solid transparent", marginLeft: "16px"}}>
         <Row>
-          <Col className="col-3 p-4 " style={{border: "1px solid transparent", marginTop: "18px"}}>
+          <Col className="col-3 p-3" style={{border: "1px solid transparent", marginTop: "12px"}}>
             <div style={{maxWidth: "100%", border: "1px solid transparent", backgroundColor: "white", paddingLeft: "5%"}}> <img src={FinologyImage} style={{maxWidth: "100%"}}></img></div>
           </Col>
           <Col style={{border: "1px solid transparent"}}>        
