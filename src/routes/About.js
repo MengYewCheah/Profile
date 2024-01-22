@@ -162,7 +162,7 @@ function Interest () {
 
 function Experience () {
   return (
-    <div className="Summary" style={{height: "500px"}}>
+    <div className="Summary" style={{height: "450px"}}>
     <Card className="border-0 p-4 m-0" style={{backgroundColor: "gray", color: "white"}}>
         <CardTitle className="SummaryCardTitle">Experience</CardTitle>
     </Card>
