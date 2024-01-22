@@ -99,6 +99,10 @@
     margin-top: 0px;
 }
 
+.ExperienceCont {
+    max-width: 600px;
+}
+
 @media only screen and (max-width: 1500px) {
     .ProfileImg {
         margin-left: 120px;
@@ -205,6 +209,10 @@
     .Projects {
         height: 630px;
     }
+
+    .ExperienceCont {
+        max-width: 400px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -214,5 +222,9 @@
 
     .Projects {
         height: 730px;
+    }
+
+    .ExperienceCont {
+        width: 400px;
     }
 }

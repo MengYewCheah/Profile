@@ -166,7 +166,7 @@ function Experience () {
     <Card className="border-0 p-4 m-0" style={{backgroundColor: "gray", color: "white"}}>
         <CardTitle className="SummaryCardTitle">Experience</CardTitle>
     </Card>
-    <Container className="ExperienceCont" style={{border: "1px solid transparent", maxWidth: "600px"}}>
+    <Container className="ExperienceCont" style={{border: "1px solid transparent"}}>
     <Row>
       <Row>
         <Col className="col-3 p-4 " style={{border: "1px solid transparent", marginTop: "18px"}}>
