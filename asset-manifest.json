@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.902849c7.css",
-    "main.js": "/Profile/static/js/main.9ef7bf71.js",
+    "main.css": "/Profile/static/css/main.6a78f57b.css",
+    "main.js": "/Profile/static/js/main.d756e926.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
     "static/media/fa-solid-900.svg": "/Profile/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/Profile/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -30,14 +30,15 @@
     "static/media/algorithmAndDataStructure.png": "/Profile/static/media/algorithmAndDataStructure.28c0d9b47635bc34b094.png",
     "static/media/PythonProgramming.jpg": "/Profile/static/media/PythonProgramming.0190b135458040be4246.jpg",
     "static/media/fa-regular-400.woff2": "/Profile/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "static/media/DSLogo.jpg": "/Profile/static/media/DSLogo.d7b02d4ab49e27cc7c45.jpg",
     "index.html": "/Profile/index.html",
     "static/media/arrow.svg": "/Profile/static/media/arrow.fc1f02cab18030df751c6d3b167a10be.svg",
-    "main.902849c7.css.map": "/Profile/static/css/main.902849c7.css.map",
-    "main.9ef7bf71.js.map": "/Profile/static/js/main.9ef7bf71.js.map",
+    "main.6a78f57b.css.map": "/Profile/static/css/main.6a78f57b.css.map",
+    "main.d756e926.js.map": "/Profile/static/js/main.d756e926.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.902849c7.css",
-    "static/js/main.9ef7bf71.js"
+    "static/css/main.6a78f57b.css",
+    "static/js/main.d756e926.js"
   ]
 }
