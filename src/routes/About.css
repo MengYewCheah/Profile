@@ -205,6 +205,10 @@
     .Projects {
         height: 630px;
     }
+
+    .ExperienceCont {
+        margin-left: 20px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -214,5 +218,9 @@
 
     .Projects {
         height: 730px;
+    }
+
+    .ExperienceCont {
+        margin-left: 20px;
     }
 }
