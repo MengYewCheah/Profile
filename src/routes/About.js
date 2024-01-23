@@ -162,40 +162,40 @@ function Interest () {
 
 function Experience () {
   return (
-    <div className="Summary" style={{height: "410px"}}>
+    <div className="Summary">
     <Card className="border-0 p-4 m-0" style={{backgroundColor: "gray", color: "white"}}>
         <CardTitle className="SummaryCardTitle">Experience</CardTitle>
     </Card>
     <Container className="ExperienceCont" style={{border: "1px solid transparent"}}>
-      <Row style={{border: "1px solid transparent", marginLeft: "16px"}}>
-        <Row>
-          <Col className="col-3 p-3" style={{border: "1px solid transparent", marginTop: "12px"}}>
+      <Row className="ExperienceContRow" style={{border: "1px solid transparent"}}>
+        <Row style={{border: "1px solid transparent"}}>
+          <Col className="col-lg-2 col-sm-3 col-md-2 col-3 p-3" style={{border: "1px solid transparent", marginTop: "28px"}}>
             <div style={{maxWidth: "100%", border: "1px solid transparent"}}> <img src={DassaultSystemesImage} style={{maxWidth: "100%"}}></img></div>
           </Col>
           <Col style={{border: "1px solid transparent"}}>        
             <Card className="border-0 bg-transparent" style={{color: "white"}}>
               <CardBody>
-                <CardText className="font-weight-bold"><h4>Software Quality Assurance Engineer</h4></CardText>
-                <CardText><h5>Dassault Systemes - Full Time</h5></CardText>
-                <CardText className="m-0 p-0"><h6>Feb 2022 - Present 2 yrs</h6></CardText>
-                <CardText className="m-0 p-0"><h6>Petaling Jaya, Selangor, Malaysia On Site</h6></CardText>
+                <CardText className="font-weight-bold"><h2>Software Quality Assurance Engineer</h2></CardText>
+                <CardText><h4>Dassault Systemes - Full Time</h4></CardText>
+                <CardText className="m-0 p-0"><h5>Feb 2022 - Present 2 yrs</h5></CardText>
+                <CardText className="m-0 p-0"><h5>Petaling Jaya, Selangor, Malaysia On Site</h5></CardText>
               </CardBody>
             </Card>
           </Col>
         </Row>
       </Row>
-      <Row style={{border: "1px solid transparent", marginLeft: "16px"}}>
+      <Row className="ExperienceContRow" style={{border: "1px solid transparent"}}>
         <Row>
-          <Col className="col-3 p-3" style={{border: "1px solid transparent", marginTop: "12px"}}>
+          <Col className="col-lg-2 col-sm-3 col-md-2 col-3 p-3" style={{border: "1px solid transparent", marginTop: "28px"}}>
             <div style={{maxWidth: "100%", border: "1px solid transparent", backgroundColor: "white", paddingLeft: "5%"}}> <img src={FinologyImage} style={{maxWidth: "100%"}}></img></div>
           </Col>
           <Col style={{border: "1px solid transparent"}}>        
             <Card className="border-0 bg-transparent" style={{color: "white"}}>
               <CardBody>
-                <CardText className="font-weight-bold"><h4>Business Consultant Internship</h4></CardText>
-                <CardText><h5>Finology- Full Time</h5></CardText>
-                <CardText className="m-0 p-0"><h6>Nov 2020 - Feb 2021 3 mths</h6></CardText>
-                <CardText className="m-0 p-0"><h6>Kuala Lumpur, Malaysia On Site</h6></CardText>
+                <CardText className="font-weight-bold"><h2>Business Consultant Internship</h2></CardText>
+                <CardText><h4>Finology- Full Time</h4></CardText>
+                <CardText className="m-0 p-0"><h5>Nov 2020 - Feb 2021 3 mths</h5></CardText>
+                <CardText className="m-0 p-0"><h5>Kuala Lumpur, Malaysia On Site</h5></CardText>
               </CardBody>
             </Card>
           </Col>

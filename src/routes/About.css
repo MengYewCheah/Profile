@@ -9,7 +9,7 @@
 .Summary {
     background-color: gray; 
     color: White;
-    height: 300px;
+    height: 480px;
 }
 
 .Interest {
@@ -100,7 +100,11 @@
 }
 
 .ExperienceCont {
-    max-width: 600px;
+    max-width: 900px;
+}
+
+.ExperienceContRow{
+    margin-left: 100px;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -151,7 +155,7 @@
     }
 
     .Summary {
-        height: 240px;
+        height: 540px;
     }
 
     .InterestCardTitle {
@@ -194,7 +198,26 @@
     .Projects {
         height: 630px;
     }
+
+    h2 {
+        font-size: 20.8px;
+    }
+
+    h4 {
+        font-size: 12.8px;
+    }
     
+    h5 {
+        font-size: 11.2px;
+    }
+
+    .Summary {
+        height: 460px;
+    }
+
+    .ExperienceContRow{
+        margin-left: 28px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -224,6 +247,11 @@
     .Projects {
         height: 730px;
     }
+
+    .Summary {
+        height: 540px;
+    }
+
 /* 
 
     /* .ExperienceCont {
