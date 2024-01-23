@@ -18,7 +18,6 @@ import MySQLImage from '../assets/MySQL.png';
 import ShellScriptingImage from '../assets/ShellScripting.jpg';
 import HTMLCSSImage from '../assets/HTMLCSS.png';
 import AlgorithmAndDataStructure from '../assets/algorithmAndDataStructure.png';
-import CardHeader from "react-bootstrap/esm/CardHeader";
 import Container from 'react-bootstrap/Container';
 import DassaultSystemesImage from '../assets/DSLogo.jpg';
 import FinologyImage from '../assets/finology_group_logo.jpg';
