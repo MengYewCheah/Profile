@@ -163,7 +163,7 @@ function Interest () {
 function Experience () {
   return (
     <div className="Summary">
-    <Card className="border-0 p-4 m-0" style={{backgroundColor: "gray", color: "white"}}>
+    <Card className="border-0 p-4 m-0" style={{backgroundColor: "gray", color: "white", paddingBottom: "0"}}>
         <CardTitle className="SummaryCardTitle">Experience</CardTitle>
     </Card>
     <Container className="ExperienceCont" style={{border: "1px solid transparent"}}>
