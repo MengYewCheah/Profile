@@ -233,6 +233,9 @@
         height: 630px;
     }
 
+    .Summary {
+        height: 410px;
+    }
 /* 
     .ExperienceCont {
         max-width: 400px;
@@ -249,9 +252,8 @@
     }
 
     .Summary {
-        height: 540px;
+        height: 410px;
     }
-
 /* 
 
     /* .ExperienceCont {
