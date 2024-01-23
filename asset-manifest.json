@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.1ff55bc4.css",
-    "main.js": "/Profile/static/js/main.18e38809.js",
+    "main.css": "/Profile/static/css/main.409b9fb7.css",
+    "main.js": "/Profile/static/js/main.b1cbd510.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
     "static/media/fa-solid-900.svg": "/Profile/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/Profile/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -26,6 +26,7 @@
     "static/media/Selenium.jpeg": "/Profile/static/media/Selenium.23fbaf10d90b2b7f6916.jpeg",
     "static/media/ReactGithub.jpg": "/Profile/static/media/ReactGithub.5967ff1af6e5d17d0b87.jpg",
     "static/media/ShellScripting.jpg": "/Profile/static/media/ShellScripting.851d8e552e17890c1dc4.jpg",
+    "static/media/finology_group_logo.jpg": "/Profile/static/media/finology_group_logo.4c8293068030f14a1074.jpg",
     "static/media/fa-regular-400.woff": "/Profile/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/algorithmAndDataStructure.png": "/Profile/static/media/algorithmAndDataStructure.28c0d9b47635bc34b094.png",
     "static/media/PythonProgramming.jpg": "/Profile/static/media/PythonProgramming.0190b135458040be4246.jpg",
@@ -33,12 +34,12 @@
     "static/media/DSLogo.jpg": "/Profile/static/media/DSLogo.d7b02d4ab49e27cc7c45.jpg",
     "index.html": "/Profile/index.html",
     "static/media/arrow.svg": "/Profile/static/media/arrow.fc1f02cab18030df751c6d3b167a10be.svg",
-    "main.1ff55bc4.css.map": "/Profile/static/css/main.1ff55bc4.css.map",
-    "main.18e38809.js.map": "/Profile/static/js/main.18e38809.js.map",
+    "main.409b9fb7.css.map": "/Profile/static/css/main.409b9fb7.css.map",
+    "main.b1cbd510.js.map": "/Profile/static/js/main.b1cbd510.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ff55bc4.css",
-    "static/js/main.18e38809.js"
+    "static/css/main.409b9fb7.css",
+    "static/js/main.b1cbd510.js"
   ]
 }
