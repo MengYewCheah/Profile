@@ -12,6 +12,7 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link><Link to="/">Home</Link></Nav.Link>
+            <Nav.Link><Link to="/coinGeckoAPI">CoinGecko</Link></Nav.Link>
             {/* <Nav.Link to="/about"><Link to="/about">About</Link></Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
