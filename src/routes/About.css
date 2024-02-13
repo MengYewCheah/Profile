@@ -9,6 +9,11 @@
 .Summary {
     background-color: gray; 
     color: White;
+    height: 640px;
+}
+
+.Education {
+    background-color: gray; 
     height: 480px;
 }
 
@@ -154,10 +159,6 @@
         font-size: 30px;
     }
 
-    .Summary {
-        height: 540px;
-    }
-
     .InterestCardTitle {
         margin-top: -20px;
         font-size: 30px;
@@ -212,7 +213,7 @@
     }
 
     .Summary {
-        height: 460px;
+        height: 660px;
     }
 
     .ExperienceContRow{
@@ -234,7 +235,7 @@
     }
 
     .Summary {
-        height: 460px;
+        height: 620px;
     }
 /* 
     .ExperienceCont {
@@ -252,7 +253,7 @@
     }
 
     .Summary {
-        height: 460px;
+        height: 560px;
     }
 /* 
 

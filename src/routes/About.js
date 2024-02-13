@@ -21,6 +21,7 @@ import AlgorithmAndDataStructure from '../assets/algorithmAndDataStructure.png';
 import Container from 'react-bootstrap/Container';
 import DassaultSystemesImage from '../assets/DSLogo.jpg';
 import FinologyImage from '../assets/finology_group_logo.jpg';
+import MonashImage from '../assets/monash.png';
 function About() {
   return (
     <div style={{padding: "0px", margin: "0px"}}>
@@ -200,8 +201,26 @@ function Experience () {
           </Col>
         </Row>
       </Row>
+      <Row className="ExperienceContRow" style={{border: "1px solid transparent"}}>
+        <Row>
+          <Col className="col-lg-2 col-sm-3 col-md-2 col-3 p-3" style={{border: "1px solid transparent", marginTop: "28px"}}>
+            <div style={{maxWidth: "100", backgroundColor: "white"}}> <img src={MonashImage} style={{maxWidth: "100%"}}></img></div>
+          </Col>
+          <Col style={{border: "1px solid transparent"}}>        
+            <Card className="border-0 bg-transparent" style={{color: "white"}}>
+              <CardBody>
+                <CardText className="font-weight-bold"><h2>Bachelor of Computer Science</h2></CardText>
+                <CardText><h4>Monash University Malaysia - Full Time</h4></CardText>
+                <CardText className="m-0 p-0"><h5>Mar 2019 - Dec 2021</h5></CardText>
+                <CardText className="m-0 p-0"><h5>Kuala Lumpur, Malaysia On Site</h5></CardText>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+      </Row>
     </Container>
     </div>
   )
 }
+
 export default About;
