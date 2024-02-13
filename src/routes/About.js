@@ -168,7 +168,7 @@ function Experience () {
     </Card>
     <Container className="ExperienceCont" style={{border: "1px solid transparent"}}>
       <Row className="ExperienceContRow" style={{border: "1px solid transparent"}}>
-        <Row style={{border: "1px solid transparent"}}>
+        <Row style={{border: "1px solid transparent", marginTop: "-20px"}}>
           <Col className="col-lg-2 col-sm-3 col-md-2 col-3 p-3" style={{border: "1px solid transparent", marginTop: "28px"}}>
             <div style={{maxWidth: "100%", border: "1px solid transparent"}}> <img src={DassaultSystemesImage} style={{maxWidth: "100%"}}></img></div>
           </Col>
@@ -185,7 +185,7 @@ function Experience () {
         </Row>
       </Row>
       <Row className="ExperienceContRow" style={{border: "1px solid transparent"}}>
-        <Row>
+        <Row style={{marginTop: "-20px"}}>
           <Col className="col-lg-2 col-sm-3 col-md-2 col-3 p-3" style={{border: "1px solid transparent", marginTop: "28px"}}>
             <div style={{maxWidth: "100%", border: "1px solid transparent", backgroundColor: "white", paddingLeft: "5%"}}> <img src={FinologyImage} style={{maxWidth: "100%"}}></img></div>
           </Col>
@@ -202,7 +202,7 @@ function Experience () {
         </Row>
       </Row>
       <Row className="ExperienceContRow" style={{border: "1px solid transparent"}}>
-        <Row>
+        <Row style={{marginTop: "-20px"}}>
           <Col className="col-lg-2 col-sm-3 col-md-2 col-3 p-3" style={{border: "1px solid transparent", marginTop: "28px"}}>
             <div style={{maxWidth: "100", backgroundColor: "white"}}> <img src={MonashImage} style={{maxWidth: "100%"}}></img></div>
           </Col>
