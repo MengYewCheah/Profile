@@ -9,7 +9,7 @@
 .Summary {
     background-color: gray; 
     color: White;
-    height: 640px;
+    height: 540px;
 }
 
 .Education {
@@ -213,7 +213,7 @@
     }
 
     .Summary {
-        height: 660px;
+        height: 600px;
     }
 
     .ExperienceContRow{
@@ -235,7 +235,7 @@
     }
 
     .Summary {
-        height: 620px;
+        height: 520px;
     }
 /* 
     .ExperienceCont {
@@ -253,7 +253,7 @@
     }
 
     .Summary {
-        height: 660px;
+        height: 560px;
     }
 /* 
 
